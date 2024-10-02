@@ -13,4 +13,4 @@ def get_welcome():
     return response.json()
 
 if __name__ == '__main__':
-    app.run(port=2000, debug=True)  # Run on port 5000
+    app.run(host='0.0.0.0', port=5001, debug=True)  # Run on port 5000
