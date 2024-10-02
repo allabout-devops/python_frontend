@@ -24,7 +24,7 @@ jobs:
 
       - name: Get current date
         id: get_date
-        run: echo "DATE_TAG=$(date +'%Y%m%d%H%M')" >> $GITHUB_ENV
+        run: echo "DATE_TAG=$(date +'%d_%m_%Y')" >> $GITHUB_ENV
 
       - name: Build Docker image
         run: |
